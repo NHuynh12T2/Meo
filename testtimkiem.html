@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Picture Dictionary</title>
     <style>
+        .container {
+    display: flex;
+    flex-direction: column; /* Arrange vertically */
+    align-items: center;    /* Center align items */
+}
           button {
             background-color: #77dd77; /* Pastel green color */
             color: white;
@@ -91,6 +96,10 @@
     </div>
 
     <div class="gallery" id="gallery">
+        <div class="container">
+    <img src="tegiacdenjpg" alt="Description of image">
+    <button onclick="window.location.href='tegiacden.html'">Click Me!</button>
+</div>
         <div class="picture" data-name="Gà lôi lam đuôi trắng">
             <img src="galoilam.webp" alt="Gà lôi lam đuôi trắng">
             <div class="image-name">Gà lôi lam đuôi trắng</div>
