@@ -5,12 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Picture Dictionary</title>
     <style>
-        .container {
-    display: flex;
-    flex-direction: column; /* Arrange vertically */
-    align-items: center;    /* Center align items */
-}
-          button {
+       button {
             background-color: #77dd77; /* Pastel green color */
             color: white;
             border: none;
@@ -73,6 +68,7 @@
         .picture img {
             width: 100%;
             height: 100%;
+            object-fit: cover;
         }
         .picture:hover {
             transform: scale(1.05);
